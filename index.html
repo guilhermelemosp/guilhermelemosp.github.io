@@ -5,138 +5,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Portifólio Web</title>
-    <style>
-        body {
-            background-color: #FFBC42;
-        }
-
-        h1 {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            color: rgba(79, 77, 74, 0.657);
-
-        }
-
-        h4,
-        h2 {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-weight: normal;
-        }
-
-        #fotoperfil {
-            border-radius: 200px;
-        }
-
-        .title {
-            background-color: antiquewhite;
-            text-align: center;
-            padding: 20px;
-            font-size: 40px;
-        }
-
-        .description {
-            width: fit-content;
-            background-color: antiquewhite;
-            color: rgba(79, 77, 74, 0.657);
-            position: absolute;
-            top: 180px;
-            left: 350px;
-        }
-
-        #about {
-            position: absolute;
-            top: 230px;
-            left: 350px;
-            width: auto;
-            background-color: antiquewhite;
-            color: rgba(79, 77, 74, 0.874);
-            margin-right: 100px;
-        }
-
-        .abilities {
-            background-color: antiquewhite;
-            text-align: center;
-            padding: 20px;
-            font-size: 40px;
-            color: gray;
-        }
-
-        .lists {
-            text-align: center;
-            font-size: 30px;
-        }
-
-
-        a {
-            text-decoration: none;
-            font-size: 15px;
-            padding: 15px;
-        }
-
-        .portifolio2 {
-            font-size: 30px;
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-
-
-    </style>
 
 </head>
 
 <body>
+
     <h1 class="title">Guilherme Lemos Pimentel</h1>
     <br>
-
-    <img id="fotoperfil" src="foto-perfil.png" alt="foto perfil Guilherme Lemos"> <br>
-
-    <h2 class="description">DESCRIÇÃO SOBRE MIM</h2>
-
-    <h4 id="about">Olá pessoal! Me chamo Guilherme, tudo bom?
-
-        Sou brasileiro, natural de Vila Velha/ES, sou desenvolvedor FullStack em evolução, cursando
-        Desenvolvimento de software na Trybe, entusiasta de novas tecnologias e amante deste mundo de alternativas que a
-        programação pode proporcionar.
-
-        Toda minha experiência profissional é baseada naquilo que eu pude captar em todos os locais nos quais trabalhei,
-        seja no ramo comercial, administrativo e da saúde. Na área de Front End, estou atualmente me especializando nas
-        linguagens mais utilizadas neste mercado: HTML, CSS, Javascript, dentre outras.
-
-        Me considero uma pessoa persistente e curiosa. Busco sempre um conhecimento que possa agregar na minha vida como
-        um todo, principalmente na área profissional.
-
-        Em um crescimento constante, assim seguimos <strong>SEMPRE!</strong></h4><br>
+    <div class="alinhamento-lateral">
+        <div class="picture">
+            <img src="foto-perfil.png" alt="Foto perfil Guilherme Lemos">
+            <br>
+        </div>
 
 
+        <div class="about">
+
+            <h2>DESCRIÇÃO SOBRE MIM</h2>
+
+            <p>Olá pessoal! Me chamo Guilherme, tudo bom?
+
+                Sou brasileiro, natural de Vila Velha/ES, sou desenvolvedor FullStack em evolução, cursando
+                Desenvolvimento de software na Trybe, entusiasta de novas tecnologias e amante deste mundo de
+                alternativas
+                que a
+                programação pode proporcionar.
+
+                Toda minha experiência profissional é baseada naquilo que eu pude captar em todos os locais nos quais
+                trabalhei,
+                seja no ramo comercial, administrativo e da saúde. Na área de Front End, estou atualmente me
+                especializando
+                nas
+                linguagens mais utilizadas neste mercado: HTML, CSS, Javascript, dentre outras.
+
+                Me considero uma pessoa persistente e curiosa. Busco sempre um conhecimento que possa agregar na minha
+                vida
+                como
+                um todo, principalmente na área profissional.
+
+                Em um crescimento constante, assim seguimos <strong>SEMPRE!</strong></p><br>
+
+        </div>
+    </div>
     <h2 class="abilities">HABILIDADES QUE POSSUO</h2>
     <ul class="lists">
-        <li>Organizado</li>
+        <li class="habilidades-impares">Organizado</li>
         <li><strong>Disciplinado</strong></li>
-        <li>Articulador</li>
+        <li class="habilidades-impares">Articulador</li>
         <li>Estudioso</li>
-        <li>Comunicativo</li>
+        <li class="habilidades-impares">Comunicativo</li>
 
     </ul>
 
-    <a href="https://www.linkedin.com/in/guilherme-pimentel-1100ba10a/">Meu Linkedin</a><br>
-    <a href="fotointerna.html">Foto de Perfil</a><br>
-    <a href="https://crossfit.com">Quer saber sobre a melhor metodologia de treinamento do mundo?</a> <br>
+
+    <div class="links-pessoais">
+        <a href="https://www.linkedin.com/in/guilherme-pimentel-1100ba10a/">Meu Linkedin</a><br>
+        <a href="fotointerna.html">Foto de Perfil</a><br>
+        <a href="https://crossfit.com">Quer saber sobre a melhor metodologia de treinamento do mundo?</a> <br>
+    </div>
 
     <h2 class="abilities">PORTIFÓLIO</h2>
 
     <h3 class="portifolio2">LINKS PARA PORTIFÓLIOS</h3>
     <ol class="lists">
-        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;"> portifolio 1
+        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;">
+                portifolio 1
             </a></li>
-        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;"> portifolio 2
-        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;"> portifolio 3
+        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;">
+                portifolio 2
+        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;">
+                portifolio 3
             </a></li>
-        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;"> portifolio 4
+        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;">
+                portifolio 4
             </a></li>
-        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;"> portifolio 5
+        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;">
+                portifolio 5
             </a></li>
-        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;"> portifolio 6
+        <li><a class="lists" href="portifolios.html" style="font-weight: strong; text-decoration: none; color: black;">
+                portifolio 6
             </a></li>
     </ol>
 
